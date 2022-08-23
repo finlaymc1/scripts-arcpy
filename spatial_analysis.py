@@ -1,6 +1,7 @@
 #This code was used as part of the Australian Government's Wildlife and Habitat Bushfire Recovery Program 
 #It was used to determine mean, max etc. fire severity for different invertebrate species sites 
 #Mean FESM values were used to determine the level of agreement between on on-ground assessments of fire severity and FESM 
+#Working with shapefiles here but you could also do a similar process with gdb 
 
 #Import spatial analysis module 
 #If working from outside ArcGis Pro need to import arcpy module 
