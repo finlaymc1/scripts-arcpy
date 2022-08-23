@@ -1,5 +1,7 @@
 #This code was used as part of the Australian Government's Wildlife and Habitat Bushfire Recovery Program 
 #It was used to determine mean, max etc. fire severity for different invertebrate species sites 
+#Fire intensity and severity mapping (FESM) is provided by NSW DPIE(https://datasets.seed.nsw.gov.au/dataset/fire-extent-and-severity-mapping-fesm)
+
 #Mean FESM values were used to determine the level of agreement between on on-ground assessments of fire severity and FESM 
 #Working with shapefiles here but you could also do a similar process with gdb 
 
@@ -16,7 +18,6 @@ sr = arcpy.SpatialReference(4326)
 folder = "C:\FESM\\"
 
 #FESM Input 
-#Fire intensity and severity mapping is provided by NSW DPIE(https://datasets.seed.nsw.gov.au/dataset/fire-extent-and-severity-mapping-fesm)
 FESM_input = folder + "fesm.tif"
 FESM = aprxMap.addDataFromPath(FESM_input)
 
